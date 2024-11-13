@@ -7,7 +7,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from PIL import Image
 
-# Import the Dataset 
+# Import the Dataset
 skincare = pd.read_csv("export_skincare.csv", encoding='utf-8', index_col=None)
 
 # Header
